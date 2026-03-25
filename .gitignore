@@ -1,7 +1,4 @@
-# Dependency directories
 node_modules/
-
-# Bắt buộc phải ignore file này để bảo mật DB Password và API Keys
 .env
 
 # Logs
