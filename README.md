@@ -77,6 +77,12 @@ Want to run this project locally? Follow these steps:
     npm run dev
     ```
     The server will start at `http://localhost:3000`.
+6.  **Run the Server WITH DOCKER IMAGE (optional):**
+    ```bash
+    docker build -t your_dockerhub_username/new_image_name:latest .
+    docker run -p 3210:3000 --env-file .env your_dockerhub_username/new_image_name:latest
+    ```
+    The server will start at `http://localhost:3210`.
 
 ---
 
