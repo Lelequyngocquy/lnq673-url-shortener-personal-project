@@ -19,10 +19,7 @@ EXPOSE 3000
 # Bước 7: Lệnh để khởi chạy ứng dụng
 CMD ["node", "server.js"]
 
-####################################### BUILD NEW IMAGE 
-#docker login 
-#docker build -t your_dockerhub_username/new_image_name:latest .
-####################################### PUSH TO DOCKERHUB
-#docker push your_dockerhub_username/new_image_name:latest
-####################################### RUN IMAGE LOCALLY
-#docker run -p 3000:3000 --env-file .env your_dockerhub_username/new_image_name:latest
+##########  build
+#docker build -t url_shortener .
+##########  run
+#docker run -p 3210:3000 --env-file .env url_shortener
