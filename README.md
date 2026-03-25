@@ -41,7 +41,7 @@ Want to run this project locally? Follow these steps:
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/Lelequyngocquy/lnq673-url-shortener-personal-project.git](https://github.com/Lelequyngocquy/lnq673-url-shortener-personal-project.git)
+    git clone https://github.com/Lelequyngocquy/lnq673-url-shortener-personal-project.git
     cd lnq673-url-shortener-personal-project
     ```
 
