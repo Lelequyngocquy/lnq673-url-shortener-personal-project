@@ -24,7 +24,7 @@ This isn't just a basic URL cloner. It integrates essential production-level fea
 - **Runtime:** Node.js (Express.js)
 - **Database:** **TiDB Cloud** (Distributed SQL, MySQL compatible) - Chosen for scalability.
 - **Libraries:** `mysql2` (promise-based), `bcryptjs` (security), `dotenv` (config), `nanoid`/`crypto` (unique ID generation).
-
+- **Containerization & DevOps:** Docker (Optimized Alpine Image)
 ---
 
 ## Installation & Setup
