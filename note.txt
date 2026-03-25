@@ -1,0 +1,11 @@
+# 1. Khởi tạo project
+npm init -y
+
+# 2. Cài đặt các thư viện lõi
+npm install express mysql2 dotenv cors
+
+# 3. Cài đặt các thư viện hỗ trợ tính năng Premium & Security
+npm install redis nanoid bcryptjs express-rate-limit
+
+# 4. Cài đặt tool hỗ trợ dev
+npm install --save-dev nodemon
