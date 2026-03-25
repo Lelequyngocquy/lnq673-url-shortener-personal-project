@@ -92,7 +92,7 @@ This example shows the simplest use case: creating a short link with an automati
 
 ```json
 {
-  "originalUrl": "[https://github.com/Lelequyngocquy](https://github.com/Lelequyngocquy)"
+  "originalUrl": "https://github.com/Lelequyngocquy"
 }
 ```
 
@@ -106,7 +106,7 @@ This example shows the simplest use case: creating a short link with an automati
 
 ```json
 {
-  "originalUrl": "[https://example.com/very-long-link](https://example.com/very-long-link)",
+  "originalUrl": "https://example.com/very-long-link",
   "customAlias": "optional-custom-name",
   "password": "optional-password",
   "expiresAt": "2025-12-31 23:59:59"
